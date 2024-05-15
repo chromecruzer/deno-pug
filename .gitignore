@@ -1,0 +1,6 @@
+# Ignore if Node tryna fuck in..!!
+node_modules
+
+# ENV
+.env
+.env.local
