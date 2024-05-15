@@ -28,8 +28,6 @@ jobs:
         with:
           node-version: lts/*
 
-      - name: Install step
-        run: "DENO_KV_ACCESS_TOKEN=ddp_Q8ByZuZLvVgehN193AMVbsMKDNtbvS35K8x6"
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
